@@ -1,0 +1,20 @@
+Currency exchange service
+
+URL: http://localhost:8000/currency-exchange/from/USD/to/INR
+
+http://35.232.247.254:8000/currency-exchange/from/USD/to/INR
+35.232.247.254
+
+Response Structure:
+{
+   "id":10001,
+   "from":"USD",
+   "to":"INR",
+   "conversionMultiple":65.00,
+   "environment":"8000 instance-id"
+}
+____________________________________________________________________________________________________
+
+Currency conversion service
+
+URL: http://localhost:8100/currency-conversion/from/USD/to/INR/quantity/10
